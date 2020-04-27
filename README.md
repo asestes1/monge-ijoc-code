@@ -9,7 +9,7 @@ that are used in this simulation. In particular, it defines a greedy maximum mat
 that alternates between looking for Monge stars and the greedy policy.
 
 The `examples` folder contains a single file `example_run.py` that contains the code used to generate the results 
-displayed in the paper.
+displayed in the paper. The output from this script is stored in `output\results.csv`.
 
 This code requires several packages to run correctly. Most of these are listed in the `requirements.txt` file. If you
  are using a python distribution with `pip`, you can use the command `pip install -r requirements.txt` to install these
