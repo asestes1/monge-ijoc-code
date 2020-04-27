@@ -31,7 +31,7 @@ for alpha in [1 / 256, 1 / 128, 0.03125, .0625, 0.125, 0.25]:
     for disc in [0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64, 128]:
         method_names = []
         print(alpha, disc)
-        for seed in range(0, 1):
+        for seed in range(0, 50):
             for method, method_name in zip([policies.mincost_batch_policy_gen(disc=disc),
                                             policies.star_batch_policy_gen(star_disc=disc / subdivision,
                                                                            iter_between=subdivision)],
